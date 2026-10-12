@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Suneel Kumar is a Senior Backend Engineer and Tech Lead with 12+ years of experience in PHP, Laravel, microservices, AWS, cloud infrastructure, and DevOps."
+    />
+    <title>Suneel Kumar · Senior Backend Engineer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .profile-wrap { display: flex; flex-direction: column; align-items: center; gap: .9rem; }
+      .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent2); box-shadow: 0 0 20px rgba(63, 185, 80, .25); }
+      .download-cv-btn { display: inline-flex; align-items: center; gap: .5rem; padding: .55rem 1.2rem; color: var(--accent2); background: transparent; border: 1px solid var(--accent2); border-radius: 6px; font: 600 .8rem var(--font-mono); text-decoration: none; transition: all .25s ease; }
+      .download-cv-btn:hover { color: #0b0e12; background: var(--accent2); box-shadow: 0 0 18px rgba(63, 185, 80, .45); transform: translateY(-2px); }
+      .impact-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .8rem; margin-bottom: 1.5rem; }
+      .impact-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 7px; padding: 1rem; }
+      .impact-number { display: block; color: var(--accent2); font-size: 1.45rem; font-weight: 700; }
+      .impact-label { color: var(--text-dim); font-size: .78rem; }
+      .achievement-list { margin: 0; padding-left: 1.15rem; color: #cbd5e1; }
+      .achievement-list li + li { margin-top: .35rem; }
+      .education-item { background: #0b0e12; border-left: 2px solid var(--purple); border-radius: 0 6px 6px 0; color: #cbd5e1; margin-top: .7rem; padding: .85rem 1.1rem; }
+      @media (max-width: 700px) { .impact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .profile-img { width: 120px; height: 120px; } }
+    </style>
+  </head>
+  <body>
+    <div class="terminal">
+      <div class="window-bar">
+        <div class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+        <span class="window-title">imsuneel@dev: ~ — senior-backend-engineer</span>
+        <span class="window-time" id="clock"><span id="clockDate">Mon, Oct 6</span><span class="clock-sep"> | </span><span id="clockHour">00</span><span class="blink">:</span><span id="clockMin">00</span><span class="blink">:</span><span id="clockSec">00</span></span>
+      </div>
+
+      <main class="content">
+        <section class="hero">
+          <div class="hero-top">
+            <div class="hero-text">
+              <div class="greeting">&gt; Hello, I'm</div>
+              <h1 class="name">Suneel Kumar</h1>
+              <div class="role"><span>Senior Backend Engineer | Tech Lead | PHP Laravel | AWS | Microservices</span><span>•</span><span>12+ years experience</span></div>
+              <p class="role"><strong>Core Skills:</strong> PHP, Laravel, AWS, Microservices, REST APIs, MySQL, Redis, Docker, Kubernetes, CI/CD</p>
+              <div class="contact-quick">
+                <a class="quick-link" href="mailto:suneelweb15@gmail.com"><span class="icon">📧</span> suneelweb15@gmail.com</a>
+                <span class="quick-divider">|</span>
+                <a class="quick-link" href="tel:+919013436088"><span class="icon">📞</span> +91 9013 436088</a>
+              </div>
+              <div class="social-links">
+                <a class="social-link linkedin" href="https://www.linkedin.com/in/imsuneel" target="_blank" rel="noopener"><span class="icon">💼</span> LinkedIn</a>
+              </div>
+            </div>
+            <div class="profile-wrap">
+              <img class="profile-img" src="img/1645792350753.jpeg" alt="Suneel Kumar profile photo" />
+              <a class="download-cv-btn" href="Suneel_Kumar_Senior_Backend_Engineer.pdf" target="_blank" download><span aria-hidden="true">📄</span> Download CV</a>
+            </div>
+          </div>
+          <div class="location">📍 Noida, Uttar Pradesh, India</div>
+        </section>
+
+        <section class="neofetch">
+          <div class="ascii-art"><pre>
+       /\         imsuneel
+      /  \        ─────────────────
+     /\   \       Senior Backend Engineer
+    /      \      Microservices &amp; Distributed Systems
+   /   ,,   \     Cloud Architecture &amp; DevOps
+  /   |  |   \    Tech Leadership
+ /_-' '  ' '-_\
+          </pre></div>
+          <div class="sysinfo">
+            <div class="prompt-line">┌──(imsuneel@dev)-[~]</div>
+            <div class="prompt-line">└─$ <span class="cmd">whoami</span></div>
+            <div class="prompt-line">────────────────────────────</div>
+            <div><span class="label label-name">Name:</span> <span class="value value-strong">Suneel Kumar</span></div>
+            <div><span class="label label-role">Role:</span> <span class="value value-accent">Senior Backend Engineer | Tech Lead</span></div>
+            <div><span class="label label-experience">Experience:</span> <span class="value">12+ Years</span></div>
+            <div><span class="label label-backend">Architecture:</span> <span class="value value-tech">Microservices · Distributed Systems · REST APIs</span></div>
+            <div><span class="label label-database">Data:</span> <span class="value value-tech">MySQL · MariaDB · PostgreSQL · Redis</span></div>
+            <div><span class="label label-devops">Cloud / DevOps:</span> <span class="value value-tech">AWS · GCP · Docker · Kubernetes · CI/CD</span></div>
+            <div><span class="label label-focus">Focus:</span> <span class="value">High-concurrency systems · Scalable SaaS platforms</span></div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Professional Summary</h2>
+          <div style="background:#0b0e12;border-left:2px solid var(--accent2);padding:1rem 1.4rem;border-radius:0 6px 6px 0;margin-bottom:1.5rem">
+            <p style="font-size:.95rem;color:#cbd5e1">Senior Backend Engineer and Tech Lead with 12+ years of experience building reliable web applications and backend systems. Skilled in PHP, Laravel, microservices, Representational State Transfer APIs (REST APIs), Amazon Web Services (AWS), Google Cloud Platform (GCP), Docker, Kubernetes, and Continuous Integration / Continuous Delivery (CI/CD). Experienced in leading teams and building systems that support high traffic and more than one million users.</p>
+          </div>
+          <div class="impact-grid" aria-label="Career impact">
+            <div class="impact-card"><span class="impact-number">30-50%</span><span class="impact-label">system performance improvement</span></div>
+            <div class="impact-card"><span class="impact-number">90%</span><span class="impact-label">faster deployments through CI/CD</span></div>
+            <div class="impact-card"><span class="impact-number">99.9%+</span><span class="impact-label">production uptime achieved</span></div>
+            <div class="impact-card"><span class="impact-number">1M+</span><span class="impact-label">users supported at scale</span></div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Professional Experience</h2>
+          <article class="experience-item">
+            <div class="exp-header"><span class="exp-title">Tech Lead / Senior Backend Developer</span><span class="exp-date">Aug 2025 – Present</span></div>
+            <div class="exp-company">@ Web Technologies India · Remote</div>
+            <ul class="achievement-list"><li>Built microservices for web applications with high traffic.</li><li>Set up AWS infrastructure with auto-scaling and load balancing to improve availability.</li><li>Reduced API response time by 30% using database query tuning and Redis caching.</li><li>Led backend development and added secure JWT and OAuth2 login features.</li></ul>
+          </article>
+          <article class="experience-item">
+            <div class="exp-header"><span class="exp-title">Tech Lead / Senior Backend Developer</span><span class="exp-date">Oct 2020 – Jul 2025</span></div>
+            <div class="exp-company">@ Techlabs · Remote</div>
+            <ul class="achievement-list"><li>Supported backend systems that processed thousands of requests per second.</li><li>Moved a large application to microservices and reduced technical debt by 35%.</li><li>Improved API performance by 40% and system throughput by 50%.</li><li>Built CI/CD pipelines that reduced deployment time from 2 hours to 10 minutes.</li><li>Improved AWS and GCP infrastructure to reach 99.95% uptime and reduce cost by 25%.</li></ul>
+          </article>
+          <article class="experience-item">
+            <div class="exp-header"><span class="exp-title">Tech Lead / Senior Software Developer</span><span class="exp-date">Apr 2017 – Oct 2020</span></div>
+            <div class="exp-company">@ Aadrila Technologies Private Limited · Noida, India</div>
+            <ul class="achievement-list"><li>Created reusable Laravel frameworks and reduced project setup time by 40%.</li><li>Improved database performance and reduced response time by 35%.</li><li>Set up Docker and CI/CD deployments with no downtime and 99.9% uptime.</li></ul>
+          </article>
+          <article class="experience-item">
+            <div class="exp-header"><span class="exp-title">Senior Software Developer</span><span class="exp-date">May 2013 – Apr 2017</span></div>
+            <div class="exp-company">@ Knox Payments Inc · Henrico, Virginia</div>
+            <ul class="achievement-list"><li>Built payment systems that handled millions of transactions each month.</li><li>Developed PCI-DSS compliant REST APIs for banking system integration.</li><li>Improved backend performance by 25%, reduced infrastructure cost by 15%, and reduced defects by 40%.</li></ul>
+          </article>
+          <article class="experience-item">
+            <div class="exp-header"><span class="exp-title">Software Developer</span><span class="exp-date">Dec 2009 – May 2013</span></div>
+            <div class="exp-company">@ IndiaMART InterMESH Limited · Noida, India</div>
+            <ul class="achievement-list"><li>Developed high-traffic web platforms for more than 1 million daily users.</li><li>Improved uptime by 90% and reduced page load time by 30%.</li><li>Helped move APIs to a modular application structure.</li></ul>
+          </article>
+        </section>
+
+        <section>
+          <h2>Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-category"><h3>Architecture and Backend</h3><div class="skill-tags"><span class="skill-tag">PHP</span><span class="skill-tag">Laravel</span><span class="skill-tag">Microservices</span><span class="skill-tag">Distributed Systems</span><span class="skill-tag">System Design</span><span class="skill-tag">REST APIs</span></div></div>
+            <div class="skill-category"><h3>Cloud and DevOps</h3><div class="skill-tags"><span class="skill-tag">AWS</span><span class="skill-tag">EC2</span><span class="skill-tag">S3</span><span class="skill-tag">RDS</span><span class="skill-tag">CloudFront</span><span class="skill-tag">GCP</span><span class="skill-tag">Docker</span><span class="skill-tag">Kubernetes</span><span class="skill-tag">Jenkins</span><span class="skill-tag">GitHub Actions</span><span class="skill-tag">GitLab CI/CD</span></div></div>
+            <div class="skill-category"><h3>Databases and Caching</h3><div class="skill-tags"><span class="skill-tag">MySQL</span><span class="skill-tag">MariaDB</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">Redis</span><span class="skill-tag">Database Replication</span><span class="skill-tag">Database Sharding</span></div></div>
+            <div class="skill-category"><h3>Security and Monitoring</h3><div class="skill-tags"><span class="skill-tag">Load Balancing</span><span class="skill-tag">API Security</span><span class="skill-tag">OAuth2</span><span class="skill-tag">JWT</span><span class="skill-tag">CloudWatch</span><span class="skill-tag">Prometheus</span><span class="skill-tag">New Relic</span></div></div>
+            <div class="skill-category"><h3>Leadership</h3><div class="skill-tags"><span class="skill-tag">Agile</span><span class="skill-tag">Scrum</span><span class="skill-tag">Code Reviews</span><span class="skill-tag">Mentoring</span><span class="skill-tag">Team Leadership</span></div></div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Key Achievements</h2>
+          <div style="background:#0b0e12;border-left:2px solid var(--warning);padding:1rem 1.4rem;border-radius:0 6px 6px 0">
+            <ul class="achievement-list"><li>Led backend teams of 5-6 engineers.</li><li>Set coding standards and improved code quality.</li><li>Improved team productivity by 25-30% through mentoring and code reviews.</li><li>Improved release speed through CI/CD and DevOps.</li><li>Built systems that supported millions of users and transactions.</li></ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <div class="education-item"><strong>MCA</strong> — Mahatma Gandhi University, 2011</div>
+          <div class="education-item"><strong>B.Sc Mathematics</strong> — Agra University, 2009</div>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <div class="contact-block">
+            <div class="contact-header"><span class="contact-status"><span class="status-dot"></span> contact.sh — running</span><span class="contact-hint">↳ select a channel to connect</span></div>
+            <div class="contact-grid">
+              <a class="contact-card" href="mailto:suneelweb15@gmail.com"><div class="contact-icon">📧</div><div class="contact-details"><span class="contact-label">Email</span><span class="contact-value">suneelweb15@gmail.com</span></div><span class="contact-arrow">→</span></a>
+              <a class="contact-card" href="tel:+919013436088"><div class="contact-icon">📞</div><div class="contact-details"><span class="contact-label">Phone</span><span class="contact-value">+91 9013 436088</span></div><span class="contact-arrow">→</span></a>
+              <a class="contact-card" href="https://www.linkedin.com/in/imsuneel" target="_blank" rel="noopener"><div class="contact-icon">💼</div><div class="contact-details"><span class="contact-label">LinkedIn</span><span class="contact-value">linkedin.com/in/imsuneel</span></div><span class="contact-arrow">→</span></a>
+              <div class="contact-card static"><div class="contact-icon">📍</div><div class="contact-details"><span class="contact-label">Location</span><span class="contact-value">Noida, Uttar Pradesh, India</span></div></div>
+            </div>
+            <div class="contact-footer-line"><span class="dim">$</span> <span class="cmd">exit 0</span> <span class="dim">— all channels verified ✓</span></div>
+          </div>
+        </section>
+        <div class="footer-note"><span class="dim">─</span> imsuneel@dev <span class="dim">·</span> senior backend engineer <span class="dim">·</span> <span id="footerYear">2026</span></div>
+      </main>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
